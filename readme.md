@@ -1,1 +1,1 @@
-# this is a simple node-express deployment test project ec2 instance 
+# this is a simple node-express deployment test project to ec2 instance 
