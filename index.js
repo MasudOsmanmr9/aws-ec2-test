@@ -1,14 +1,14 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 3001
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World! this is 3001 port')
 })
 
 app.get('/user', (req, res) => {
     res.json({
-        'name':'masud',
+        'name':'osman',
         'age':29,
         'height':5.9,
         'gpa':2.9
