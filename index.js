@@ -6,7 +6,11 @@ app.get('/', (req, res) => {
   res.send('Hello World! this is 3001 port')
 })
 
-app.get('/user', (req, res) => {
+app.get('/api', (req, res) => {
+  res.send('Hello World! this is 3001 port')
+})
+
+app.get('/api/user', (req, res) => {
     res.json({
         'name':'osman',
         'age':29,
@@ -18,3 +22,6 @@ app.get('/user', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
+
+
+  
