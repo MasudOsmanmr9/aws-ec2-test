@@ -2,11 +2,11 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-app.get('/', (req, res) => {
+app.get('api/v1/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/user', (req, res) => {
+app.get('/api/v1/user', (req, res) => {
     res.json({
         'name':'masud',
         'age':29,
