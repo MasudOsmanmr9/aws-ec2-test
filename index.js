@@ -6,11 +6,11 @@ app.get('/', (req, res) => {
   res.send('Hello World! this is 3001 port')
 })
 
-app.get('/api', (req, res) => {
+app.get('/api/v2', (req, res) => {
   res.send('Hello World! this is 3001 port')
 })
 
-app.get('/api/user', (req, res) => {
+app.get('/api/v2/user', (req, res) => {
     res.json({
         'name':'osman',
         'age':29,
